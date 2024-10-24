@@ -5,12 +5,11 @@ name: Start
 on:
    workflow_dispatch:
    schedule:
-       - cron: '0 3 * * *'
-       - cron: '30 6 * * *'
-       - cron: '30 10 * * *'
-       - cron: '30 16 * * *'
-       - cron: '30 22 * * *'
-   timezone: Asia/Shanghai
+       - cron: '30 0 * * *'
+       - cron: '30 4 * * *'
+       - cron: '30 8 * * *'
+       - cron: '30 13 * * *'
+       - cron: '30 18 * * *'
 
 jobs:
   TiebaSignIn:
